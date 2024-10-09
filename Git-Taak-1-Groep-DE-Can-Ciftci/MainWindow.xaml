@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Git_Taak_1_Groep_DE_Can_Ciftci"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="750" Width="800">
     <Grid Background="#58A518" >
-        <Image Margin="10,10,563,324" Source="/logo_pxl_digital.png" Stretch="Fill" Height="100"/>
+        <Image Margin="0,-6,573,640" Source="/logo_pxl_digital.png" Height="100"/>
         <Label Content="PXL MovieDB" HorizontalAlignment="Left" Margin="341,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="397" FontSize="36" BorderThickness="1px" BorderBrush="Black" Height="63"/>
-        <Image Margin="10,131,566,10" Source="/dune2.jpg" Stretch="Fill"/>
-        <Image Margin="277,131,295,10" Source="/furiosa.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Image Margin="540,131,18,10" Source="/thesubstance.jpg" Stretch="Fill"/>
+        <Image Margin="40,200,536,197" Source="/dune2.jpg" MouseDown="Image_MouseDown"/>
+        <Image Margin="286,200,286,197" Source="/furiosa.jpg" MouseDown="Image_MouseDown_1"/>
+        <Image Margin="535,199,23,196" Source="/thesubstance.jpg" MouseDown="Image_MouseDown_2"/>
+        <TextBlock x:Name="txtFilm" HorizontalAlignment="Left" Margin="40,608,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="96" Width="730"/>
 
     </Grid>
 </Window>
