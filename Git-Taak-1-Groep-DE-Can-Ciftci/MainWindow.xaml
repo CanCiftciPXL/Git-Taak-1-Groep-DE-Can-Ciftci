@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Git_Taak_1_Groep_DE_Can_Ciftci"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#58A518">
-                
+    <Grid Background="#58A518" >
+        
     </Grid>
 </Window>
