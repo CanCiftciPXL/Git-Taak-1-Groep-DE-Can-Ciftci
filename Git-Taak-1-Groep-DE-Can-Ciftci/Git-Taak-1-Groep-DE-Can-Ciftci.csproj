@@ -9,4 +9,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="dune2.jpg" />
+    <None Remove="furiosa.jpg" />
+    <None Remove="logo_pxl_digital.png" />
+    <None Remove="thesubstance.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dune2.jpg" />
+    <Resource Include="furiosa.jpg" />
+    <Resource Include="logo_pxl_digital.png" />
+    <Resource Include="thesubstance.jpg" />
+  </ItemGroup>
+
 </Project>

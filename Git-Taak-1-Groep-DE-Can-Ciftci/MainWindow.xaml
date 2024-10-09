@@ -7,12 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#58A518" >
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="161*"/>
-            <ColumnDefinition Width="239*"/>
-        </Grid.ColumnDefinitions>
-        <Image Margin="0,0,72,334" Source="/Img/logo_pxl_digital.png" Stretch="Fill" Height="100"/>
-        <Label Grid.Column="1" Content="PXL MovieDB" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="397" FontSize="36" BorderThickness="1px" BorderBrush="Black" Height="63"/>
+        <Image Margin="10,10,563,324" Source="/logo_pxl_digital.png" Stretch="Fill" Height="100"/>
+        <Label Content="PXL MovieDB" HorizontalAlignment="Left" Margin="341,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="397" FontSize="36" BorderThickness="1px" BorderBrush="Black" Height="63"/>
+        <Image Margin="10,131,566,10" Source="/dune2.jpg" Stretch="Fill"/>
+        <Image Margin="277,131,295,10" Source="/furiosa.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Image Margin="540,131,18,10" Source="/thesubstance.jpg" Stretch="Fill"/>
 
     </Grid>
 </Window>
