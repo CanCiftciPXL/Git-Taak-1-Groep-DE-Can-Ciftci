@@ -12,6 +12,7 @@
             <ColumnDefinition Width="239*"/>
         </Grid.ColumnDefinitions>
         <Image Margin="0,0,72,334" Source="/Img/logo_pxl_digital.png" Stretch="Fill" Height="100"/>
+        <Label Grid.Column="1" Content="PXL MovieDB" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="397" FontSize="36" BorderThickness="1px" BorderBrush="Black" Height="63"/>
 
     </Grid>
 </Window>
